@@ -22,7 +22,7 @@ export const orebiSlice = createSlice({
         state.products.push(action.payload);
       }
       // Dispatch a success toast
-      toast.success("Product added to cart");
+      toast.success("პროდუქტი დაემატა კალათაში");
     },
     increaseQuantity: (state, action) => {
       const item = state.products.find(

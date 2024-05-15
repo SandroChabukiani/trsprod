@@ -24,7 +24,14 @@ import ProductDetails from "./pages/ProductDetails/ProductDetails";
 import Shop from "./pages/Shop/Shop";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
+import Fanera from "./pages/xismasala/xismasala";
+import Fanera23 from "./pages/xismasala/23";
+import Laminati from "./pages/xismasala/laminati";
+import Sayalibe from "./pages/xismasala/sayalibe";
+import Fanera34 from "./pages/xismasala/34";
+import Keramograniti from "./pages/keramika/keramograniti";
+import Klinkeri from "./pages/keramika/klinkeri";
+import Sidebarr from "./components/sidebar/sidebar";
 const Layout = () => {
   return (
     <div>
@@ -39,8 +46,9 @@ const Layout = () => {
         draggable
         pauseOnHover
         theme="colored"
-      />
-      <Header />
+      /> 
+      
+      {/* <Header /> */}
       <HeaderBottom />
       <SpecialCase />
       <ScrollRestoration />
@@ -57,6 +65,13 @@ const router = createBrowserRouter(
         {/* ==================== Header Navlink Start here =================== */}
         <Route index element={<Home />}></Route>
         <Route path="/shop" element={<Shop />}></Route>
+        <Route path="/fanera" element={<Fanera />}></Route>
+        <Route path="/fanera23" element={<Fanera23 />}></Route>
+        <Route path="/fanera34" element={<Fanera34 />}></Route>
+        <Route path="/sayalibe" element={<Sayalibe />}></Route>
+        <Route path="/laminati" element={<Laminati />}></Route>
+        <Route path="/keramograniti" element={<Keramograniti />}></Route>
+        <Route path="/klinkeri" element={<Klinkeri />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/journal" element={<Journal />}></Route>

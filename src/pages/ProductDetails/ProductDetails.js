@@ -7,29 +7,15 @@ import { FaDownload } from "react-icons/fa";
 const tabs = [
   {
     id: "Fiche Technique",
-    label: "Fiche Technique",
+    label: "ტექნიკური მახასიათებელი",
   },
-  {
-    id: "Description",
-    label: "Description",
-    content:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
-  },
-  {
-    id: "Video",
-    label: "Video",
-    content: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/watch?v=6e0yIRDVPlA&list=RD6e0yIRDVPlA&start_radio=1"
-        title="YouTube Video"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
-    ),
-  },
-  // Add more tabs as needed
+  // {
+  //   id: "Description",
+  //   label: "აღწერა",
+  //   content:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+  // },
+  
 ];
 
 const ProductDetails = () => {
@@ -50,8 +36,8 @@ const ProductDetails = () => {
   return (
     <div className="w-full mx-auto border-b-[1px] border-b-gray-300">
       <div className="max-w-container mx-auto px-4">
-        <div className="xl:-mt-10 -mt-7">
-          <Breadcrumbs title="" prevLocation={prevLocation} />
+        <div style={{marginTop: '60px'}} className="xl:-mt-10 -mt-7">
+          {/* <Breadcrumbs title="" prevLocation={prevLocation} /> */}
         </div>
         <div className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-4 h-full -mt-5 xl:-mt-8 pb-10 bg-gray-100 p-4">
           <div className="h-full xl:col-span-2">
@@ -102,17 +88,7 @@ const ProductDetails = () => {
                       </tbody>
                     </table>
                     <div className="my-4 flex justify-end">
-                      <button className="inline-flex items-center px-4 py-2 border border-gray-300 bg-blue-500 hover:bg-blue-600 text-white font-bodyFont">
-                        <FaDownload className="h-5 w-5 mr-2 text-white" />
-                        <a
-                          href={productInfo.pdf}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-white"
-                        >
-                          Download PDF
-                        </a>{" "}
-                      </button>
+                      
                     </div>
                   </div>
                 ) : (

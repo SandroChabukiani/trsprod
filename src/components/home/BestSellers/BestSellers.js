@@ -11,25 +11,25 @@ import {
 const BestSellers = () => {
   return (
     <div className="w-full pb-20">
-      <Heading heading="Our Bestsellers" />
+      <Heading heading="ყველაზე მოთხოვნადი" />
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
           _id="1011"
-          img={bestSellerOne}
-          productName="Flower Base"
-          price="35.00"
-          color="Blank and White"
-          badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          img='https://i.imgur.com/4nomS7B.jpg'
+          productName="ფანერა 3მმ"
+          price="28.00"
+          color="I/II ხარისხი"
+          badge={false}
+          des="1/2 ხარისხის ფანერა 3მმ სისქის 1525 x 1525mm"
         />
         <Product
           _id="1012"
-          img={bestSellerTwo}
-          productName="New Backpack"
-          price="180.00"
-          color="Gray"
+          img="https://i.imgur.com/2oOR2D3.png"
+          productName="ლამინირებული ფანერა"
+          price="93.00"
+          color="1250 x 2500 x 18მმ"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="ხარისხი: 1/1"
         />
         <Product
           _id="1013"

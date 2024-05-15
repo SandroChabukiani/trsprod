@@ -21,7 +21,7 @@ const Breadcrumbs = ({ prevLocation, title }) => {
           <HiOutlineChevronRight />
         </span>
         <span className="capitalize font-semibold text-primeColor">
-          {locationPath}
+          {/* {locationPath} */}
         </span>
       </p>
     </div>
