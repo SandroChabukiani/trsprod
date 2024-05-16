@@ -7,7 +7,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { paginationItems, paginationItems2, paginationItems3, paginationItems4, paginationItems5, paginationItems6 } from "../../../constants";
 import Sidebarr from "../../sidebar/sidebar";
-
+import '../../sidebar/sidebar.css'
 const HeaderBottom = () => {
   const products = useSelector((state) => state.orebiReducer.products);
   const [show, setShow] = useState(false);
@@ -62,7 +62,7 @@ const HeaderBottom = () => {
           <div style={{width: '100%', display: 'flex', justifyContent:'space-between', paddingTop: '2%',  paddingBottom: '1.3%'}}>
             <div style={{width: '15%', maxWidth: '50px', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}} className="gap-4 mt-2 lg:mt-0 items-center pr-6 cursor-pointer relative">
             <Sidebarr />
-            <h2 style={{color: 'white', fontSize: "20px", marginBottom: '5px', fontWeight: "900" }}>პროდუქცია</h2>
+            <h2 className="tishi" style={{color: 'white', fontSize: "20px", marginBottom: '25px', fontWeight: "900" }} >EUROWOOD</h2>
             </div>
               <div style={{width: '80%', maxWidth: '600px'}} className="relative w-full h-[50px] text-base text-primeColor bg-white flex items-center gap-2 justify-between px-6 rounded-xl">
                 <input

@@ -233,7 +233,7 @@ export const SplOfferData = [
 export const paginationItems = [
   {
     _id: "201",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 3მმ",
     price: "28.00",
     color: "I/II ხარისხი",
@@ -255,7 +255,7 @@ export const paginationItems = [
   },
   {
     _id: "202",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 4მმ",
     price: "29.00",
     color: "I/II ხარისხი",
@@ -278,7 +278,7 @@ export const paginationItems = [
 
   {
     _id: "203",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 6მმ",
     price: "38.00",
     color: "I/II ხარისხი",
@@ -300,7 +300,7 @@ export const paginationItems = [
   },
   {
     _id: "205",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 8მმ",
     price: "51.00",
     color: "I/II ხარისხი",
@@ -323,7 +323,7 @@ export const paginationItems = [
 
   {
     _id: "206",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 10მმ",
     price: "55.00",
     color: "I/II ხარისხი",
@@ -346,7 +346,7 @@ export const paginationItems = [
 
   {
     _id: "207",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 12მმ",
     price: "72.00",
     color: "I/II ხარისხი",
@@ -369,7 +369,7 @@ export const paginationItems = [
 
   {
     _id: "208",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 15მმ",
     price: "81.00",
     color: "I/II ხარისხი",
@@ -392,7 +392,7 @@ export const paginationItems = [
 
   {
     _id: "209",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 18სმმ",
     price: "97.00",
     color: "I/II ხარისხი",
@@ -414,7 +414,7 @@ export const paginationItems = [
   },
   {
     _id: "210",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 24მმ",
     price: "148.00",
     color: "I/II ხარისხი",
@@ -436,7 +436,7 @@ export const paginationItems = [
   },
   {
     _id: "211",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/uCk1O4o.jpg',
     productName: "ფანერა 30მმ",
     price: "175.00",
     color: "I/II ხარისხი",
@@ -461,7 +461,7 @@ export const paginationItems2 = [
    
   {
     _id: "201",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 3მმ",
     price: "17.00",
     color: "II/III ხარისხი",
@@ -483,7 +483,7 @@ export const paginationItems2 = [
   },
   {
     _id: "202",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 4მმ",
     price: "19.00",
     color: "II/III ხარისხი",
@@ -506,7 +506,7 @@ export const paginationItems2 = [
 
   {
     _id: "203",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 6მმ",
     price: "26.00",
     color: "II/III ხარისხი",
@@ -528,7 +528,7 @@ export const paginationItems2 = [
   },
   {
     _id: "205",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 8მმ",
     price: "31.00",
     color: "II/III ხარისხი",
@@ -551,7 +551,7 @@ export const paginationItems2 = [
 
   {
     _id: "206",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 10მმ",
     price: "42.00",
     color: "II/III ხარისხი",
@@ -574,7 +574,7 @@ export const paginationItems2 = [
 
   {
     _id: "207",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 12მმ",
     price: "50.00",
     color: "II/III ხარისხი",
@@ -597,7 +597,7 @@ export const paginationItems2 = [
 
   {
     _id: "208",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 15მმ",
     price: "60.00",
     color: "II/III ხარისხი",
@@ -620,7 +620,7 @@ export const paginationItems2 = [
 
   {
     _id: "209",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 18სმმ",
     price: "72.00",
     color: "II/III ხარისხი",
@@ -642,7 +642,7 @@ export const paginationItems2 = [
   },
   {
     _id: "210",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/4m1t8rc.jpg',
     productName: "ფანერა 24მმ",
     price: "101.00",
     color: "II/III ხარისხი",
@@ -666,7 +666,7 @@ export const paginationItems2 = [
 export const paginationItems3 = [
   {
     _id: "201",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 4მმ",
     price: "16.00",
     color: "III/IIII ხარისხი",
@@ -688,7 +688,7 @@ export const paginationItems3 = [
   },
   {
     _id: "202",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 6მმ",
     price: "21.00",
     color: "III/IIII ხარისხი",
@@ -711,7 +711,7 @@ export const paginationItems3 = [
 
   {
     _id: "203",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 8მმ",
     price: "27.00",
     color: "III/IIII ხარისხი",
@@ -733,7 +733,7 @@ export const paginationItems3 = [
   },
   {
     _id: "205",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 10მმ",
     price: "32.00",
     color: "III/IIII ხარისხი",
@@ -756,7 +756,7 @@ export const paginationItems3 = [
 
   {
     _id: "206",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 12მმ",
     price: "39.00",
     color: "III/IIII ხარისხი",
@@ -779,7 +779,7 @@ export const paginationItems3 = [
 
   {
     _id: "207",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 15მმ",
     price: "47.00",
     color: "III/IIII ხარისხი",
@@ -802,7 +802,7 @@ export const paginationItems3 = [
 
   {
     _id: "208",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 18მმ",
     price: "56.00",
     color: "III/IIII ხარისხი",
@@ -825,7 +825,7 @@ export const paginationItems3 = [
 
   {
     _id: "209",
-    img: 'https://i.imgur.com/4nomS7B.jpg',
+    img: 'https://i.imgur.com/Ifw13jV.jpg',
     productName: "ფანერა 30მმ",
     price: "99.00",
     color: "III/IIII ხარისხი",
